@@ -1,0 +1,5 @@
+def myFunction(name, age):
+    print("I am " + name + ". I am " + str(age) + " years old")
+
+myFunction("Majfuz", 23)
+myFunction("Khan Raj", 22)
