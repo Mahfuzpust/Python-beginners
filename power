@@ -1,0 +1,7 @@
+def to_power(base, pow2):
+    res = 1
+    for i in range(pow2):
+        res = res*base
+    return res
+
+print(to_power(5,2))
