@@ -1,0 +1,6 @@
+def cube(num):
+    return num*num*num
+print("mahfuz")
+
+x= cube(3)
+print(x)
