@@ -1,0 +1,9 @@
+try:
+    x = int(input("Enter the ninput: "))
+    print(x)
+except:
+    print("value not an integer")
+else:
+    print("the else value ")
+finally:
+    print("The finally value we get ")
