@@ -10,6 +10,11 @@ f2 = open("demofile.txt", "r")
 print(f2.readline())
 f2.close()
 
+f2 = open("demofile.txt", "r")
+for i in f2.readlines():
+    print(i)
+f2.close()
+
 f3 = open("E:/New folder/New folder/mahfuz.txt", "r")
 print(f3.readlines()[2])
 f3.close()
