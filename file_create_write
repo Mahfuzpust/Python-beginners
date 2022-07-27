@@ -1,0 +1,9 @@
+f = open("myfile.txt", "x") # create
+
+f = open("myfile.txt", "w") #write
+f.write("Mahfuz Khan Raj")
+f.close()
+
+f = open("myfile.txt", "r") #read
+print(f.read())
+f.close()
